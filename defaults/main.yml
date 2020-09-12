@@ -1,0 +1,8 @@
+---
+# defaults file for firewall
+
+firewall_ports_to_open:
+- 80/tcp
+- 443/tcp
+- 8081/tcp
+- 8080/tcp
