@@ -14,3 +14,8 @@
   loop: "{{ firewall_ports_to_open }}"
   notify:
     - Reload firewalld
+
+- name: Enable firewalld
+  service:
+    name: firewalld
+    enabled: yes
