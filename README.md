@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+This is a simple rule for centos firewall, not production grade, still testing.
 
 Requirements
 ------------
